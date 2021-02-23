@@ -1,7 +1,13 @@
 /* Space out content a bit */
 body {
   padding-top: 1.5rem;
-  padding-bottom: 1.5rem; }
+  padding-bottom: 1.5rem;
+  font-family: 'Poppins', sans-serif; }
+
+nav {
+  margin-bottom: 20px; }
+  nav .navbar-brand img {
+    width: 3em; }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -65,3 +71,17 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0; } }
+
+.pages {
+  margin: 15px 0; }
+  .pages nav, .pages ol.breadcrumb {
+    margin-bottom: 0;
+    margin: 5px; }
+  .pages #accordion {
+    margin: 15px 0; }
+    .pages #accordion .card {
+      margin: 5px; }
+  .pages .list-group {
+    margin: 5px; }
+  .pages .columns {
+    padding: 15px 25px; }

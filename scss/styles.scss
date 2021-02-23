@@ -2,6 +2,15 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  // font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    margin-bottom: 20px;
+    .navbar-brand img {
+        width: 3em;
+    }
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -76,4 +85,25 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+// pages
+.pages {
+    margin: 15px 0;
+    nav, ol.breadcrumb {
+        margin-bottom: 0;
+        margin: 5px;
+    }
+    #accordion {
+        margin: 15px 0;
+        .card {
+            margin: 5px;
+        }
+    }
+    .list-group  {
+        margin: 5px;
+    }
+    .columns {
+        padding: 15px 25px;
+    }
 }
